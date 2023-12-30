@@ -1,0 +1,294 @@
+*{
+    margin:0px;
+    font-weight: bolder;
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    font-size:1.2em;
+    margin-top: 15px;
+}
+.s{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+#title{
+    font-size:2em;
+    text-decoration:none;
+}
+#title:hover{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2em;
+}
+.head{
+    display:flex;
+    align-items: center;
+    margin: 0px 100px;
+}
+body{
+    background-image: url(back.avif);
+}
+header{
+    display:grid;
+    grid-template-columns: auto 600px;
+    height: 65px;
+    width:100%;
+    background-color:black;
+    position:fixed;
+}
+.headcontent{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    margin: 0px 100px 0px 0px;
+}
+#Home{
+    width:100%;
+    height:100vh;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.Hcontent>h1{
+    font-size: 4.5em;
+}
+h4{
+    font-size: 2em;
+}
+.img{
+    border-radius:2100px;
+    width:400px;
+    height:400px;
+}
+.Hcontent{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    word-spacing: 2px;
+    justify-content: center;
+    margin-left: 15%;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#About{
+    width:100%;
+    height:100vh; 
+}
+button{
+    margin:20px 0px;
+    width:150px;
+    padding:15px;
+    font-size:1em;
+    border-radius: 50px;
+    border:0px;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+.icon-box{
+    width: 50px;
+    height:50px;
+    border-radius: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    gap: 5px;
+}
+#linkedin{
+    width: 70px;
+    height:70px;
+}
+#git{
+    width: 50px;
+    height:50px;
+}
+#insta{
+    width: 60px;
+    height:60px;
+}
+.aboutcont{
+    margin-top:80px;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    place-items: center;
+}
+#photo{
+    width:350px;
+    border-radius:30px;
+}
+#skills{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(to right);
+}
+#Education{
+    width:100%;
+    height:100vh;
+}
+#work{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(to left);
+}
+#contact{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    height: 350px;
+    width:auto;
+    background-color: black;
+    color:white;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    place-content: center;
+}
+#About>div>h1,.aboutcont>div>h1,h4,#skills>h1{
+    font-size: 2.3em;
+    padding-top: 30px;
+}
+p{
+    margin-top: 20px;
+    font-size: 1.6em;
+    font-weight: 200;
+}
+b{
+    font-weight:700;
+}
+.contact-content{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    margin-top: 30px;
+    width:850px;
+    height:auto;
+    padding:30px;
+    border-radius:30px;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+input{
+    width:100%;
+    height:50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    padding-left: 20px;
+    border:solid 1px;
+}
+textarea{
+    width:100%;
+    height:150px;
+    font-size:1.2em;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+input:focus,textarea:focus{
+    outline:none;
+    border:1.5px solid rgb(0,60,255);
+}
+.contactimg{
+    background-color: black;
+    background-size: 400px;
+}
+.submit-btn{
+    float: right;
+}
+.hover:hover{
+    box-shadow: 5px 5px 10px rgba(0.1,0.3,0,0.8);
+}
+#foot{
+    color:white;
+    font-size: 1.6em;
+    font-weight: 300;
+}
+#foot:hover{
+    color:blue;
+    text-decoration: none;
+}
+h3{
+    font-size:2em;
+}
+.skillcontent{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    row-gap:30px;
+    background-color: black;
+    margin:100px;
+    padding:40px;
+    border-radius: 20px;
+}
+.skillcontent>div>img{
+    width: 150px;
+    height: 150px;
+}
+.skill-img{
+    width:150px;
+    height:150px;
+    border-radius: 20px;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.educationcont{
+    display:flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    width:1000px;
+    height:160px;
+    border-radius: 20px;
+    margin:auto;
+    margin-top: 20px;
+}
+b{
+    color:blue;
+}
+small{
+    text-align: center;
+}
+.project-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 90px;
+    place-items: center;
+}
+.srack,.calci,.landing,.face,.gen{
+    background-size: 370px;
+    background-repeat: no-repeat;
+    width:370px;
+    height:230px;
+    padding:auto;
+    border-radius: 20px;
+}
+.srack{
+    background-image:url(Screenshot\ \(299\).png);
+}
+.calci{
+    background-image: url(Screenshot\ \(300\).png);
+}
+.landing{
+    background-image: url(Screenshot\ \(301\).png);
+}
+.face{
+    background-image: url(https://daxg39y63pxwu.cloudfront.net/images/blog/face-detection-projects/Face_detection_projects.png);
+}
+.gen{
+    background-image: url(https://www.bhutanpythoncoders.com/wp-content/uploads/2021/07/Password-generator-1024x576-1024x585.jpg);
+}
